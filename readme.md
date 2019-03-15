@@ -1,6 +1,6 @@
 NETWAR RTMP/ENCODING STACK
 ==========================
-The following code is the code used to make the RTMP/Encoding systems work at NETWAR.
+The following repo houses the code used to make the RTMP/Encoding systems work at NETWAR.
 The `BUILD` directory is so that you can modify the RTMP behavior if you so choose. Otherwise, the `docker-compose.yml` will do most of the work.
 
 Getting Started
