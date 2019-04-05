@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
    rtmp:
-     image: longshot902/rtmp
+     image: longshot902/netwar-rtmp
      volumes:
        - ./stream:/html
      restart: unless-stopped

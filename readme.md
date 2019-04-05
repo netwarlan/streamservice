@@ -1,7 +1,7 @@
-NETWAR RTMP/ENCODING STACK
-==========================
-The following repo houses the code used to make the RTMP/Encoding systems work at NETWAR.
-The `BUILD` directory is so that you can modify the RTMP behavior if you so choose. Otherwise, the `docker-compose.yml` will do most of the work.
+NETWAR STREAMING SERVICE
+========================
+This repo houses the docker-compose files for starting our LAN streaming service. 
+
 
 Getting Started
 ---------------
