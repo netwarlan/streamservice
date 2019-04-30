@@ -6,4 +6,4 @@
 docker-compose up -d --force-recreate
 
 ## Download the web player
-git clone https://longshot902@bitbucket.org/longshot902/netwar-webplayer.git ./stream/.
+git clone https://github.com/netwarlan/webplayer.git ./stream/.
