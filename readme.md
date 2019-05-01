@@ -11,7 +11,7 @@ NOTE: You'll probably have to run the following command to make the file executa
 That's it! From there, `docker-compose` will take care of the rest in standing up the infrastructure and the included web player will be downloaded for you.
 
 Once the script has finished, visit the server's address in a browser: `http://<server-ip-address>`
-You should be prompted with our slash page. Web player is ready to go!
+You should be prompted with our splash page. Web player is ready to go!
 
 Setup the RTMP Stream
 ---------------------
