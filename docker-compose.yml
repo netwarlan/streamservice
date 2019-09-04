@@ -19,7 +19,7 @@ services:
      restart: unless-stopped
      volumes:
        - ./stream:/stream
-     command:  -i rtmp://rtmp/live -c:v libx264 -crf 21 -profile:v baseline -level 3.0 -pix_fmt yuv420p -c:a aac -ac 2 -b:a 128k -movflags faststart -flags -global_header -hls_flags delete_segments /stream/live.m3u8
+     command: -i rtmp://rtmp/live -c:a aac -ar 48000 -b:a 128k -c:v h264 -profile:v main -crf 20 -g 48 -keyint_min 48 -sc_threshold 0 -b:v 2500k -maxrate 2675k -bufsize 3750k -f hls -hls_list_size 5 -hls_flags delete_segments -hls_time 6 /stream/live.m3u8
      networks:
        - stream-network
 
