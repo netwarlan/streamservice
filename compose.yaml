@@ -1,8 +1,8 @@
-version: '3'
+version: "3"
 
 services:
    rtmp:
-     image: netwarlan/rtmp
+     image: ghcr.io/netwarlan/rtmp
      volumes:
        - ./stream:/html
      restart: unless-stopped
